@@ -26,8 +26,7 @@
 (define shift-right
   (lambda (ls)
     (shift-k-left ls (- (length ls) 1))))
-  ;;  (cond ((empty? ls)'())
-   ;;     (else (append (cons (last ls) `()) (take ls (- (length ls) 1)))))))
+ 
     
 
 ;; Signature: combine(ls1 ls2)
