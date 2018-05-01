@@ -21,14 +21,3 @@ export const unparse = (x: Program | DefineExp | CExp) : string | Error =>
 
            
 
-
-console.log(unparse(parseL1("1")));
-
-console.log(unparse(parseL1("#t")));
-
-console.log(unparse(parseL1("#f")));
-
-
-console.log(unparse(parseL1("(+ x 5)")));
-
- console.log(unparse(parseL1("(L1     (define x 5)     (+ x 5)     (+ (+ (- x y) 3) 4)     (and #t x))")));
